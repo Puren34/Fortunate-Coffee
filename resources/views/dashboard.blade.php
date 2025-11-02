@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nutapos Dashboard</title>
-    <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
@@ -15,18 +15,18 @@
     <!-- Sidebar -->
     <aside class="sidebar">
         <div class="logo-wrap">
-            <img src="{{ asset('img/NutaPOS_Logo.png') }}" class="logo-icon">
+            <img src="{{ asset('img/nutapos_logo.png') }}" class="logo-icon">
             <span class="logo">nutapos</span>
         </div>
             <ul class="menu">
                 <li class="active">Dashboard</li>
-                <li>Pegawai</li>
-                <li>Kasir</li>
-                <li>Stok</li>
-                <li>Riwayat Penjualan</li>
-                <li>Member</li>
-                <li>Tutup Outlet</li>
-                <li>Pengaturan</li>
+                <li><a href="/pegawai">Pegawai</a></li>
+                <li><a href="/kasir">Kasir</a></li>
+                <li><a href="/stok">Stok</a></li>
+                <li><a href="/penjualan">Riwayat Penjualan</a></li>
+                <li><a href="/member">Member</a></li>
+                <li><a href="/">Tutup Outlet</a></li>
+                <li><a href="/">Pengaturan</a></li>
             </ul>
     </aside>
 
