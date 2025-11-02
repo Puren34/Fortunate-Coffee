@@ -19,7 +19,7 @@
             <span class="logo">nutapos</span>
         </div>
             <ul class="menu">
-                <li class="active">Dashboard</li>
+                <li class="active"><a href="/dashboard">Dashboard</a></li>
                 <li><a href="/pegawai">Pegawai</a></li>
                 <li><a href="/kasir">Kasir</a></li>
                 <li><a href="/stok">Stok</a></li>

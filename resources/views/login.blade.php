@@ -17,9 +17,7 @@
         <img src="{{ asset('img/NUTAPOS_Login.png') }}" alt="Login Image">
     </div>
 
-    {{-- Right panel --}}
     <div class="login-right">
-
         <div class="logo-wrap">
             <img src="{{ asset('img/NUTAPOS_Logo.png') }}" class="logo-icon">
             <span class="logo-text">nutapos</span>
