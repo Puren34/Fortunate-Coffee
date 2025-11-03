@@ -3,6 +3,33 @@
 @section('title', 'NutaPOS - Pegawai')
 
 @section('content')
+
+        <header class="topbar">
+        <div class="left-section">
+            <div class="menu-icon">☰</div>
+            <span class="status">
+            <span class="status-dot"></span>
+            <span class="status-text">Online</span>
+            </span>
+        </div>
+
+        <div class="right-section"> <!-- Profile Dummy Ayau -->
+            <button class="icon">📄</button>
+            <div class="profile">
+            <div class="avatar">P</div> 
+            <div class="profile-info">
+                <span class="name">PT Cunyau Terbang</span>
+                <span class="role">Manager</span>
+            </div>
+            <div class="dropdown">
+                <button>▾</button>
+                <div class="content">  
+                    <a href="/public/login">Logout</a>
+                </div>
+            </div>
+        </div>
+        </header>
+
 <div class="pegawai-container">
     <div class="pegawai-card">
         <h1 class="pegawai-title">Pilih Pelayan</h1>

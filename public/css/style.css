@@ -326,118 +326,6 @@ body {
     box-shadow: 0 0 0 3px rgba(244, 67, 54, 0.1) !important;
 }
 
-/* =====================================================================
-   PEGAWAI PAGE STYLE
-   ===================================================================== */
-
-.pegawai-container {
-    padding: 30px;
-    width: 100%;
-}
-
-.pegawai-card {
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-    padding: 20px 30px;
-}
-
-.pegawai-title {
-    font-size: 22px;
-    font-weight: 700;
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.pegawai-search {
-    display: flex;
-    align-items: center;
-    border: 1.5px solid #ccc;
-    border-radius: 6px;
-    padding: 8px 12px;
-    margin-bottom: 20px;
-}
-.pegawai-search input {
-    border: none;
-    outline: none;
-    flex: 1;
-    font-size: 14px;
-}
-.pegawai-search .search-icon {
-    width: 20px;
-    height: 20px;
-    color: #444;
-}
-
-.pegawai-sub {
-    font-style: italic;
-    color: #666;
-    margin-bottom: 10px;
-}
-
-/* List Pegawai */
-.pegawai-list {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-.pegawai-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 5px;
-    border-bottom: 1px solid #ddd;
-}
-.pegawai-left {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.pegawai-avatar {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    border: 2px solid #28a745;
-    color: #28a745;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-}
-.pegawai-name {
-    font-weight: 500;
-    color: #333;
-}
-.pegawai-actions {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-.pegawai-btn svg {
-    width: 22px;
-    height: 22px;
-    color: #28a745;
-    transition: 0.2s;
-}
-.pegawai-btn:hover svg {
-    opacity: 0.7;
-}
-.pegawai-btn.delete svg {
-    color: #c53030;
-}
-.pegawai-add {
-    color: #28a745;
-    font-weight: 600;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 15px;
-}
-.pegawai-add:hover {
-    text-decoration: underline;
-}
-
-
 /* =====================================================
    ✨ SIDEBAR IMPROVEMENT STYLE (nutapos)
    ===================================================== */
@@ -581,4 +469,125 @@ body {
     .logo-wrap {
         display: none; /* Sembunyikan logo di mode mobile */
     }
+}
+
+/* ========== TOP AREA ========== */
+.main { /* ini background utama*/
+    flex: 1;
+    padding: 30px;
+    border: 2px solid;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  height: 60px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu-icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #4ade80; 
+  border-radius: 50%;
+}
+
+.status-text {
+  color: #22c55e;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #8b5cf6; 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.role {
+  font-size: 12px;
+  color: gray;
+}
+
+.dropdown {
+    align-items: center;
+}
+
+.dropdown button {
+  font-size: 25px;
+  color: #000000;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content {
+    display: none;
+    background-color: #b6b6b6;
+    position: absolute;
+    min-width: 100px;
+}
+
+.dropdown:active .content {
+    display: block;
 }
